@@ -1,0 +1,142 @@
+div#sub_head_box{
+  width: 100%;
+  margin-bottom: 10px; 
+  padding-left: 8px;
+}
+
+div#input_area{
+  padding-left: 8px;
+}
+
+span#err_msg{
+  color: red;
+}
+
+div#date_box{
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+div#date_header{
+  width: 13%;
+  margin-right: 10px;
+  padding-left: 8px;
+  text-align: left;
+  background-color: #F5F5F5;
+}
+    
+div#regist_date{ width: 170px; }
+div#change_before{ width: 90px; text-align:right; }
+div#sepa{
+  width: 30px;
+  text-align: center;
+}
+div#change_after{ width: 90px; }
+
+form#regist_form{
+  width: 100%;
+  height: 63%;
+}
+
+div#tantou_area{
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex; flex-flow: row no-wrap;
+}
+
+div#tantou_header{
+  width: 13%;
+  padding-left: 8px;
+  text-align: left;
+  background-color: #F5F5F5;
+}
+
+input#tantou{
+  margin-left: 10px;
+  width: 530px;
+}
+
+div#comment_area{
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex; flex-flow: row no-wrap;
+}
+
+div#comment_header{
+  width: 13%;
+  padding-left: 8px;
+  text-align: left;
+  background-color: #F5F5F5;
+}
+
+textarea#comment{
+  margin-left: 10px;
+  width: 530px;
+}
+
+table.yojitu_table{
+  width: 100%;
+  table-layout: fixed;
+  word-wrap: break-word;
+  border-collapse: collapse;
+}
+  
+table.yojitu_table th{
+  scope: col;
+  font-size: 11pt;
+  text-align: left;
+  vertical-align: center;
+  padding-left: 8px;
+//  background-color: #F5F5F5; 
+  border: solid 1px darkgrey;
+}
+
+table.yojitu_table td{
+  font-size: 10pt;
+  padding-left: 8px;
+  //background-color: snow;
+  border: solid 1px darkgrey;
+}
+
+thead.yojitu_head, tbody.yojitu_body{
+  width: 100%;
+  margin: 0px; padding: 0px;
+  display: block;
+}
+
+.scolor{
+  background-color: #F5F5F5;
+}
+
+.acolor{
+  background-color: #FCEDFF;
+}
+
+tbody.yojitu_body{
+  overflow-y: scroll;
+//  height: 330px;
+  height: 380px;
+}
+
+tr.head_dummy{ 
+// visibility: collapse;
+}
+
+th#class{ width: 110px; }
+th#name{ width: 180px;}
+th.stend{ width: 87px; }
+td.d_class{ width: 110px; }
+td.d_name{ width: 180px; }
+td.d_time{ width: 87px; }
+input.time{
+  border: none;
+  background-color: transparent;
+}
+
+input.button{ 
+  width: 90px;
+  margin-top: 15px;
+}

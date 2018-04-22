@@ -1,0 +1,149 @@
+div#outer_box{
+  width: 94%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0px 10px 0px 10px;
+}
+
+#loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -30px;
+}
+
+
+div#container {
+  width: 100%;
+  padding-left: 5px;
+  height: 510px;
+}
+
+@media screen {
+  #outer_box{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  #container{
+    display: flex;
+    flex-flow: row wrap;
+    overflow-y: auto;
+  }
+}
+
+@media print{
+  #apl_header, span#apl_title, span#sub_title, .header_menu, .menu_self, menu_end, hr.top, .apl_header_class, hr.data{ display: none; }
+  #select_area, #nav_msg, #dur_area, hr.top{ display: none; }
+  th { font-size: 10pt; }
+  table.acttable { margin-bottom: 20px; }
+  div.nobreak { page-break-inside: avoid; padding-bottom: 15px; }
+}
+
+#select_area{
+  width: 95%;
+}
+
+#nav_msg{
+  padding: 0px 0px 5px 8px;
+}
+
+#dur_area{
+  padding: 0px 0px 5px 8px;
+}
+
+#err_msg{
+  margin: 0px 0px 0px 20px;
+  color: red;
+}
+
+.btn {
+  margin-left: 5px;
+}
+
+#during{
+  width: 99%;
+  margin-bottom: 5px;
+}
+
+table.acttable {
+  width: 80%;
+  border-collapse:collapse;
+  page-break-inside: avoid;
+}
+
+th{
+  height: 30px;
+  padding:0px 0px 0px 8px;
+  border:solid 1px grey;
+  font-size:10pt;
+  text-align: left;
+  background-color: #cde8d2;
+}
+
+td{
+  width:3px;
+  height:20px;
+  padding:2px 0px 2px 8px;
+  border-top:solid 1px grey;
+  border-bottom:solid 1px grey;
+  font-size:10pt;
+}
+
+td.head_data{
+  border-right:solid 1px grey;
+}
+
+td.odd_hd{
+  border-left:solid 1px grey;
+  background-color: snow;
+}
+td.eve_hd{
+  border-left:solid 1px grey;
+  background-color: #f0f0f0;
+}
+
+td.fst_td{ border-left:solid 1px grey; }
+td.lst_td{ border-right:solid 1px grey; }
+td.odd_on{ background-color: #83e880; }
+td.eve_on{ background-color: #deff89; }
+td.odd_of{ background-color: snow; }
+td.eve_of{ background-color: #f0f0f0; }
+td.bdsell{ border-left: solid 1px grey; }
+td.fnlsell{ border-right: solid 1px grey; }
+
+.foot{
+  border-top:double 3px grey;
+}
+
+.meisai_title{
+  border-bottom: double 3px darkgrey;
+}
+
+hr.top {
+  width: 100%;
+}
+
+hr.data {
+  width: 82%;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: 1px dotted #8c8b8b;
+  border-bottom: 1px dotted #fff;
+}
+
+#greyout{
+  width: 94%;
+  height: 90%;
+  visibility: hidden;
+  position: absolute;
+  left: 3%;
+  top: 35px;
+  background: rgba(0,0,0,.6);
+}
+

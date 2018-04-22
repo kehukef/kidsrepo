@@ -1,0 +1,98 @@
+#select_area{
+  width: 95%;
+}
+
+#nav_msg{
+  padding: 0px 0px 5px 8px;
+}
+
+#dur_area{
+  padding: 0px 0px 5px 8px;
+}
+
+#err_msg{
+  margin: 0px 0px 0px 20px;
+  color: red;
+}
+
+table{
+  margin: 10px 0px 10px 8px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th{
+  height: 28px;
+  border:solid 1px grey;
+  font-size:9pt;
+  text-align: left;
+  background-color: #cde8d2;
+}
+
+td{
+  width:3px;
+  height:15px;
+  border-top:solid 1px grey;
+  border-bottom:solid 1px grey;
+  font-size:9pt;
+}
+
+td.head_data{
+  border-right:solid 1px grey;
+}
+
+td.odd_hd{
+  border-left:solid 1px grey;
+  background-color: snow;
+}
+td.eve_hd{
+  border-left:solid 1px grey;
+  background-color: #f0f0f0;
+}
+
+td.fst_td{ border-left:solid 1px grey; }
+td.lst_td{ border-right:solid 1px grey; }
+td.odd_on{ background-color: #83e880; }
+td.eve_on{ background-color: #deff89; }
+td.odd_of{ background-color: snow; }
+td.eve_of{ background-color: #f0f0f0; }
+td.bdsell{ border-left: solid 1px grey; }
+td.fnlsell{ border-right: solid 1px grey; }
+
+hr.top {
+  width: 100%;
+}
+
+hr.data {
+  width: 97%;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: 1px dotted #8c8b8b;
+  border-bottom: 1px dotted #fff;
+}
+
+#loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -30px;
+}
+
+div#container {
+  width: 100%;
+  padding-left: 5px;
+  overflow-y: auto;
+  height:510px;
+}
+
+#greyout{
+  width: 94%;
+  height: 90%;
+  visibility: hidden;
+  position: absolute;
+  left: 3%;
+  top: 35px;
+  background: rgba(0,0,0,.6);
+}

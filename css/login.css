@@ -1,0 +1,84 @@
+*{
+  font-family:"Rounded Mplus 1c";
+}
+
+html{
+  height:100%;
+  margin:0pt;
+}
+
+body{
+  height:100%;
+  margin:0pt;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:snow;
+  background-image: url(../images/june.jpg);
+  background-size: cover;
+//  background-size: 100% 700px;
+}
+
+div#login_box{
+  width:28%;
+  height:45%;
+  padding:20px 7px 7px 30px;
+  border:solid 1px grey;
+  border-radius:6px;
+//  background-color:#D3DEF1;
+  background-color: #FEECD2;
+  box-shadow:1px 1px;
+  display:flex;
+  justify-content:flex-start;
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
+
+h3{
+  font-size:28px;
+  padding:0px;
+  margin:0px;
+//  color:#055A8E;
+  color: #EF845C;
+}
+
+div#topmsg{
+  padding:0px;
+  margin:0px;
+}
+
+span.parts{
+  width:100%;
+  display:block;
+  text-align:left;
+}
+
+input.txt{
+  margin-bottom:10px;
+}
+
+span.line{
+  width:100%;
+  display:inline-flex;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.btn{
+  margin:10px 5px 0px 0px;
+}
+
+div#errmsg{
+  margin-top:15px;
+  color:red;
+}
+
+div#foot_box{
+  display:inline-flex;
+  justify-content:flex-right;
+  align-items:center;
+}
+
+footer{
+  font-size:10px;
+}

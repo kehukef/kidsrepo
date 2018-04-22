@@ -1,0 +1,49 @@
+body{
+  height: 100%;
+  margin: 0pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: snow;
+  background-image: url(../images/june.jpg);
+  background-size: cover;
+  //background-size: 100% 700px;
+}
+
+div#outer_box{
+  width: 38%;
+  height: 55%;
+  padding: 20px 7px 7px 30px;
+  border: solid 1px grey;
+  border-radius: 6px;
+//  background-color: #D3DEF1;
+  background-color: #FEECD2;
+  box-shadow: 1px 1px;
+  display: flex;
+  direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.topmsg{
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+//color: #055A8E;
+  color: #EF845C;
+}
+
+.menubox{
+  display: inline;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  line-height: 31px;
+  margin-top: 15px;
+  border: solid 1px grey;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #EBF1F1;
+  text-decoration: none;
+}

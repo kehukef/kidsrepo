@@ -1,0 +1,135 @@
+#select_area{
+  width: 95%;
+}
+
+hr.top{
+  width: 100%;
+}
+
+#loading{
+  position: absolute;
+  left: 52%;
+  top: 50%;
+  margin-left: -30px;
+}
+
+div#container {
+  width: 100%;
+  padding-left: 5px;
+  height:610px;
+}
+
+#greyout{
+  width: 94%;
+  height: 90%;
+  visibility: hidden;
+  position: absolute;
+  left: 3%;
+  top: 35px;
+  background: rgba(0,0,0,.6);
+}
+
+@media screen {
+  tbody.maintbl{
+  overflow-y: scroll;
+  }
+}
+
+@media print{
+  #apl_header, span#apl_title, span#sub_title, #gmn_title, 
+  .header_menu, .menu_self, #select_area, #dur_area, #ysum_year,
+  span#err_msg, #loading, .top  {
+    display: none;
+  }
+}
+
+table.maintbl {
+  width: 100%;
+  word-wrap: break-word;
+  border-collapse: collapse;
+}
+
+thead.maintbl {
+  display: block;
+  margin:0; padding: 0;
+}
+
+tbody.maintbl {
+  width: 100%;
+  height: 500px;
+  display: block;
+  margin:0; padding: 0;
+}
+
+th {
+  font-size: 11pt;
+  border:solid 1px grey;
+}
+
+td {
+  font-size: 10pt;
+  border:solid 1px grey;
+  background-color: snow;
+}
+
+.h_class, .d_class {
+  width: 60px;
+}
+
+.h_name, .d_name {
+  width: 100px;
+}
+
+.h_label, .d_label, .f_label{
+  width: 60px;
+}
+
+.h_month, .d_month, .f_month {
+  font-size: 9pt;
+  width: 65px;
+}
+
+.h_total, .d_total, .f_total {
+  font-size: 9pt;
+  width: 100px;
+}
+
+.h_class, .h_name, .h_total, .h_label, .h_month {
+  background-color: #D3DEF1;
+}
+
+.d_month, .f_month, .d_total, .f_total, .d_label, .f_label {
+  text-align: right;
+}
+
+.h_month, .d_month, .h_label, .d_label, .h_total, .d_total, .f_total, .f_month, .f_label {
+  padding-right: 3px;
+}
+
+.d_dot {
+  border-top: dotted 1px grey;
+}
+
+.d_cancel_foot {
+  border-bottom: none;
+}
+
+div.subcontainer{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+table.subtbl{
+  width: 450px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+  border: solid 1px darkgrey;
+} 
+
+td.subtbl{
+  width: 50px;
+  border: solid 1px grey;
+  text-align: right;
+  padding-right: 2px;
+}
